@@ -1,0 +1,14 @@
+C:\Users\ADHANAIT\source\repos\OOPAssignment2\OOPAssignment2\obj\Debug\netcoreapp3.1\OOPAssignment2.csproj.AssemblyReference.cache
+C:\Users\ADHANAIT\source\repos\OOPAssignment2\OOPAssignment2\obj\Debug\netcoreapp3.1\OOPAssignment2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADHANAIT\source\repos\OOPAssignment2\OOPAssignment2\obj\Debug\netcoreapp3.1\OOPAssignment2.AssemblyInfoInputs.cache
+C:\Users\ADHANAIT\source\repos\OOPAssignment2\OOPAssignment2\obj\Debug\netcoreapp3.1\OOPAssignment2.AssemblyInfo.cs
+C:\Users\ADHANAIT\source\repos\OOPAssignment2\OOPAssignment2\obj\Debug\netcoreapp3.1\OOPAssignment2.csproj.CoreCompileInputs.cache
+C:\Users\ADHANAIT\source\repos\OOPAssignment2\OOPAssignment2\bin\Debug\netcoreapp3.1\OOPAssignment2.exe
+C:\Users\ADHANAIT\source\repos\OOPAssignment2\OOPAssignment2\bin\Debug\netcoreapp3.1\OOPAssignment2.deps.json
+C:\Users\ADHANAIT\source\repos\OOPAssignment2\OOPAssignment2\bin\Debug\netcoreapp3.1\OOPAssignment2.runtimeconfig.json
+C:\Users\ADHANAIT\source\repos\OOPAssignment2\OOPAssignment2\bin\Debug\netcoreapp3.1\OOPAssignment2.runtimeconfig.dev.json
+C:\Users\ADHANAIT\source\repos\OOPAssignment2\OOPAssignment2\bin\Debug\netcoreapp3.1\OOPAssignment2.dll
+C:\Users\ADHANAIT\source\repos\OOPAssignment2\OOPAssignment2\bin\Debug\netcoreapp3.1\OOPAssignment2.pdb
+C:\Users\ADHANAIT\source\repos\OOPAssignment2\OOPAssignment2\obj\Debug\netcoreapp3.1\OOPAssignment2.dll
+C:\Users\ADHANAIT\source\repos\OOPAssignment2\OOPAssignment2\obj\Debug\netcoreapp3.1\OOPAssignment2.pdb
+C:\Users\ADHANAIT\source\repos\OOPAssignment2\OOPAssignment2\obj\Debug\netcoreapp3.1\OOPAssignment2.genruntimeconfig.cache
