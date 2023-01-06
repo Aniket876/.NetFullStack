@@ -1,0 +1,112 @@
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git branch js-assignments
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git checkout js-assignments
+Switched to branch 'js-assignments'
+
+adhanait@LIN07001518 MINGW64 ~/assignments (js-assignments)
+$ touch sample.js
+
+adhanait@LIN07001518 MINGW64 ~/assignments (js-assignments)
+$ touch readme_js.txt
+
+adhanait@LIN07001518 MINGW64 ~/assignments (js-assignments)
+$ git add .
+
+adhanait@LIN07001518 MINGW64 ~/assignments (js-assignments)
+$ git commit -m "js first commit"
+[js-assignments 92dd9f8] js first commit
+ Committer: Dhanait <aniket-nitin.dhanait@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 readme_js.txt
+ create mode 100644 sample.js
+
+adhanait@LIN07001518 MINGW64 ~/assignments (js-assignments)
+$ git checkout master
+Switched to branch 'master'
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git add .
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git commit -m "master branch readme file committed"
+[master 2e414e6] master branch readme file committed
+ Committer: Dhanait <aniket-nitin.dhanait@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git checkout js-assignments
+Switched to branch 'js-assignments'
+
+adhanait@LIN07001518 MINGW64 ~/assignments (js-assignments)
+$ git add .
+
+adhanait@LIN07001518 MINGW64 ~/assignments (js-assignments)
+$ git commit -m "js readme file commit"
+[js-assignments ed9b64e] js readme file commit
+ Committer: Dhanait <aniket-nitin.dhanait@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+
+adhanait@LIN07001518 MINGW64 ~/assignments (js-assignments)
+$ git checkout master
+Switched to branch 'master'
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git merge js-assignments
+Merge made by the 'ort' strategy.
+ readme_js.txt | 1 +
+ sample.js     | 0
+ 2 files changed, 1 insertion(+)
+ create mode 100644 readme_js.txt
+ create mode 100644 sample.js
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git branch
+  js-assignments
+* master
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git delete -d js-assignments
+git: 'delete' is not a git command. See 'git --help'.
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git branch -d js-assignments
+Deleted branch js-assignments (was ed9b64e).
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git branch
+* master

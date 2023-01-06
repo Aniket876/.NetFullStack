@@ -1,0 +1,207 @@
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git branch css-assignments
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git checkout css-assignmentss
+error: pathspec 'css-assignmentss' did not match any file(s) known to git
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git checkout css-assignments
+Switched to branch 'css-assignments'
+
+adhanait@LIN07001518 MINGW64 ~/assignments (css-assignments)
+$ touch sample.css
+
+adhanait@LIN07001518 MINGW64 ~/assignments (css-assignments)
+$ git add .
+
+adhanait@LIN07001518 MINGW64 ~/assignments (css-assignments)
+$ git commit -m "first css commit"
+[css-assignments b198cc9] first css commit
+ Committer: Dhanait <aniket-nitin.dhanait@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 sample.css
+
+adhanait@LIN07001518 MINGW64 ~/assignments (css-assignments)
+$ git status
+On branch css-assignments
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+adhanait@LIN07001518 MINGW64 ~/assignments (css-assignments)
+$ git add .
+
+adhanait@LIN07001518 MINGW64 ~/assignments (css-assignments)
+$ git commit -m "css readme file committed"
+[css-assignments 313e0c3] css readme file committed
+ Committer: Dhanait <aniket-nitin.dhanait@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+)
+
+adhanait@LIN07001518 MINGW64 ~/assignments (css-assignments)
+$ git checkout master
+Switched to branch 'master'
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git add .
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git commit -m "master branch readme commit"
+[master 8bbea5d] master branch readme commit
+ Committer: Dhanait <aniket-nitin.dhanait@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+)
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git checkout css-assignments
+Switched to branch 'css-assignments'
+
+adhanait@LIN07001518 MINGW64 ~/assignments (css-assignments)
+$ git status
+On branch css-assignments
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   sample.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+adhanait@LIN07001518 MINGW64 ~/assignments (css-assignments)
+$ git add .
+
+adhanait@LIN07001518 MINGW64 ~/assignments (css-assignments)
+$ git commit -m "css file changed"
+[css-assignments 3721100] css file changed
+ Committer: Dhanait <aniket-nitin.dhanait@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 13 insertions(+)
+
+adhanait@LIN07001518 MINGW64 ~/assignments (css-assignments)
+$ git checkout master
+Switched to branch 'master'
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git merge css-assignments
+Auto-merging README.txt
+CONFLICT (content): Merge conflict in README.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master|MERGING)
+$ git merge css-assignments
+error: Merging is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master|MERGING)
+$ git checkout css-assignments
+error: you need to resolve your current index first
+README.txt: needs merge
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master|MERGING)
+$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+        new file:   sample.css
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   README.txt
+
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master|MERGING)
+$ git add .
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master|MERGING)
+$ git commit -m "last commit"
+[master caa9397] last commit
+ Committer: Dhanait <aniket-nitin.dhanait@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git merge css-assignments
+Already up to date.
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git delete^C
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ ^[[200~ git branch -d html-assignments
+bash: $'\E[200~': command not found
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git branch -d css-assignments
+Deleted branch css-assignments (was 3721100).
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git branch
+* master

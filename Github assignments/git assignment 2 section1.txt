@@ -1,0 +1,214 @@
+
+adhanait@LIN07001518 MINGW64 ~
+$ mkdir assignments
+
+adhanait@LIN07001518 MINGW64 ~
+$ cd assignments
+
+adhanait@LIN07001518 MINGW64 ~/assignments
+$ touch README.txt
+
+adhanait@LIN07001518 MINGW64 ~/assignments
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+adhanait@LIN07001518 MINGW64 ~/assignments
+$ git init
+Initialized empty Git repository in C:/Users/ADHANAIT/assignments/.git/
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git add .
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.txt
+
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git commit -m "readme file committed"
+[master (root-commit) d956811] readme file committed
+ Committer: Dhanait <aniket-nitin.dhanait@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.txt
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git branch html-assignments
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git checkout html-assignments
+Switched to branch 'html-assignments'
+
+adhanait@LIN07001518 MINGW64 ~/assignments (html-assignments)
+$ git commit
+On branch html-assignments
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+adhanait@LIN07001518 MINGW64 ~/assignments (html-assignments)
+$ git add .
+
+adhanait@LIN07001518 MINGW64 ~/assignments (html-assignments)
+$ git commit -m "html file committed"
+[html-assignments e17cf41] html file committed
+ Committer: Dhanait <aniket-nitin.dhanait@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 12 insertions(+)
+ create mode 100644 index.html
+
+adhanait@LIN07001518 MINGW64 ~/assignments (html-assignments)
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+        index.html
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+adhanait@LIN07001518 MINGW64 ~/assignments (html-assignments)
+$ git status
+On branch html-assignments
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+adhanait@LIN07001518 MINGW64 ~/assignments (html-assignments)
+$ git add .
+
+adhanait@LIN07001518 MINGW64 ~/assignments (html-assignments)
+$ git commit -m "second html commit"
+[html-assignments 70c4da0] second html commit
+ Committer: Dhanait <aniket-nitin.dhanait@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+
+adhanait@LIN07001518 MINGW64 ~/assignments (html-assignments)
+$ git status
+On branch html-assignments
+nothing to commit, working tree clean
+
+adhanait@LIN07001518 MINGW64 ~/assignments (html-assignments)
+$ git checkout master
+Switched to branch 'master'
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git add .
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git commit -m "changes made into readme file"
+[master b94bba1] changes made into readme file
+ Committer: Dhanait <aniket-nitin.dhanait@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git checkout html-assignments
+Switched to branch 'html-assignments'
+
+adhanait@LIN07001518 MINGW64 ~/assignments (html-assignments)
+$ git add .
+
+adhanait@LIN07001518 MINGW64 ~/assignments (html-assignments)
+$ git commit -m "changes done to html file"
+[html-assignments 57c479f] changes done to html file
+ Committer: Dhanait <aniket-nitin.dhanait@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+adhanait@LIN07001518 MINGW64 ~/assignments (html-assignments)
+$ git checkout master
+Switched to branch 'master'
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git merge html-assignments
+Merge made by the 'ort' strategy.
+ index.html | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+ create mode 100644 index.html
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git branch --delete <html-assignments>
+bash: syntax error near unexpected token `newline'
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git branch --delete<html-assignments>
+bash: syntax error near unexpected token `newline'
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git branch -d html-assignments
+Deleted branch html-assignments (was 57c479f).
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git branch
+* master
+

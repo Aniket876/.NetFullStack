@@ -1,0 +1,36 @@
+$ git config --global user.username Aniket876
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git remote add origin https://github.com/Aniket876/fresherbatch-dec22.git
+
+adhanait@LIN07001518 MINGW64 ~/assignments (master)
+$ git push origin master
+Enumerating objects: 42, done.
+Counting objects: 100% (42/42), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (38/38), done.
+Writing objects: 100% (42/42), 4.01 KiB | 821.00 KiB/s, done.
+Total 42 (delta 15), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (15/15), done.
+To https://github.com/Aniket876/fresherbatch-dec22.git
+ * [new branch]      master -> master
+
+
+
+
+
+
