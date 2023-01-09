@@ -1,0 +1,14 @@
+C:\Users\ADHANAIT\source\repos\Assignment6_Q3\Assignment6_Q3\bin\Debug\netcoreapp3.1\Assignment6_Q3.exe
+C:\Users\ADHANAIT\source\repos\Assignment6_Q3\Assignment6_Q3\bin\Debug\netcoreapp3.1\Assignment6_Q3.deps.json
+C:\Users\ADHANAIT\source\repos\Assignment6_Q3\Assignment6_Q3\bin\Debug\netcoreapp3.1\Assignment6_Q3.runtimeconfig.json
+C:\Users\ADHANAIT\source\repos\Assignment6_Q3\Assignment6_Q3\bin\Debug\netcoreapp3.1\Assignment6_Q3.runtimeconfig.dev.json
+C:\Users\ADHANAIT\source\repos\Assignment6_Q3\Assignment6_Q3\bin\Debug\netcoreapp3.1\Assignment6_Q3.dll
+C:\Users\ADHANAIT\source\repos\Assignment6_Q3\Assignment6_Q3\bin\Debug\netcoreapp3.1\Assignment6_Q3.pdb
+C:\Users\ADHANAIT\source\repos\Assignment6_Q3\Assignment6_Q3\obj\Debug\netcoreapp3.1\Assignment6_Q3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADHANAIT\source\repos\Assignment6_Q3\Assignment6_Q3\obj\Debug\netcoreapp3.1\Assignment6_Q3.AssemblyInfoInputs.cache
+C:\Users\ADHANAIT\source\repos\Assignment6_Q3\Assignment6_Q3\obj\Debug\netcoreapp3.1\Assignment6_Q3.AssemblyInfo.cs
+C:\Users\ADHANAIT\source\repos\Assignment6_Q3\Assignment6_Q3\obj\Debug\netcoreapp3.1\Assignment6_Q3.csproj.CoreCompileInputs.cache
+C:\Users\ADHANAIT\source\repos\Assignment6_Q3\Assignment6_Q3\obj\Debug\netcoreapp3.1\Assignment6_Q3.dll
+C:\Users\ADHANAIT\source\repos\Assignment6_Q3\Assignment6_Q3\obj\Debug\netcoreapp3.1\Assignment6_Q3.pdb
+C:\Users\ADHANAIT\source\repos\Assignment6_Q3\Assignment6_Q3\obj\Debug\netcoreapp3.1\Assignment6_Q3.genruntimeconfig.cache
+C:\Users\ADHANAIT\source\repos\Assignment6_Q3\Assignment6_Q3\obj\Debug\netcoreapp3.1\Assignment6_Q3.csproj.AssemblyReference.cache

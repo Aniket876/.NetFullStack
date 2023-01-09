@@ -1,0 +1,43 @@
+Bank Name: ICICI Bank
+Account number: 12345
+CustomerName: aniket
+Balance: 10000
+Bank Name: ICICI Bank
+Account number: 12345
+CustomerName: aniket
+Balance: 10000
+Balance credited 15000
+Bank Name: Hdfc Bank
+Account number: 1234444
+CustomerName: shreyas
+Balance: 1234444
+new amount: 1231444
+Balance credited 1241444
+Bank Name: ICICI Bank
+Account number: 123
+CustomerName: aniket
+Balance: 10000
+Balance credited 25000
+new amount: 15000
+Balance credited 20000
+Bank Name: ICICI Bank
+Account number: 123
+CustomerName: aniket
+Balance: 19000
+Balance credited 34000
+new amount: 24000
+Balance credited 29000
+Bank Name: ICICI Bank
+Account number: 123
+CustomerName: aniket
+Balance: 19000
+Balance credited 34000
+new amount: 24000
+Balance credited 29000
+Bank Name: Hdfc Bank
+Account number: 12345
+CustomerName: shreyas
+Balance: 20000
+Balance credited 34000
+new amount: 31000
+Balance credited 41000
