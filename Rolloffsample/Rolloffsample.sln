@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rolloffsample", "Rolloffsample\Rolloffsample.csproj", "{C6242D27-809C-4E9E-A84F-D0D4BF439D20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollOffApi", "..\..\..\Downloads\RollOffApi\RollOffApi\RollOffApi\RollOffApi.csproj", "{56A98F31-D59E-4CEF-987E-8FC7B953246E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6242D27-809C-4E9E-A84F-D0D4BF439D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6242D27-809C-4E9E-A84F-D0D4BF439D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6242D27-809C-4E9E-A84F-D0D4BF439D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6242D27-809C-4E9E-A84F-D0D4BF439D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56A98F31-D59E-4CEF-987E-8FC7B953246E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A98F31-D59E-4CEF-987E-8FC7B953246E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A98F31-D59E-4CEF-987E-8FC7B953246E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A98F31-D59E-4CEF-987E-8FC7B953246E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3423A206-7590-4225-AE10-7373856E87D4}
+	EndGlobalSection
+EndGlobal
